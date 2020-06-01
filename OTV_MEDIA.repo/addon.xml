@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="OTV_MEDIA.repo" name="OTV_MEDIA Repository" version="1.0.2" provider-name="OTV_MEDIA">
+    <extension point="xbmc.addon.repository" name="OTV_MEDIA Addon Repository">
+        <info compressed="false">https://raw.githubusercontent.com/orhantv/otv_media/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/orhantv/otv_media/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/orhantv/otv_media/master/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>OTV_MEDIA Update for Kodi</summary>
+        <description>OTV_MEDIA Addon Repository</description>
+        <platform>all</platform>
+    </extension>
+</addon>
